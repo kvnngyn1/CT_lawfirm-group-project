@@ -1,17 +1,44 @@
 .header {
     justify-content: center;
     text-align: center;
+}
 
-}
 .border-header {
-   display: flex;
+    display: flex;
 }
+
 .border-header a {
     color: black;
 }
+
 .border-footer {
-    display: flex; 
+    display: flex;
 }
+
 .border-footer a {
     color: black;
+}
+
+.login>button {
+    margin-right: 10px;
+    background: lightgray;
+    border: transparent;
+    padding: 0 10px;
+    margin-bottom: 11px;
+}
+
+nav {
+    border-top: 2px;
+    border-bottom: 2px;
+}
+
+.nza-bck {
+    background-image: url('../../images/nza_background.jpg');
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.whitespace {
+    background-color: white;
+    
 }
