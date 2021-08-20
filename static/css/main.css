@@ -1,0 +1,17 @@
+.header {
+    justify-content: center;
+    text-align: center;
+
+}
+.border-header {
+   display: flex;
+}
+.border-header a {
+    color: black;
+}
+.border-footer {
+    display: flex; 
+}
+.border-footer a {
+    color: black;
+}
