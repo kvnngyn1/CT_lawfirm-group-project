@@ -117,11 +117,11 @@
     text-align: left;
 }
 
-
 /* Kevins STUFF */
 
 .redbox {
     background-image: url('../../images/nav_side.jpg');
+   
 }
 
 img {
@@ -149,6 +149,19 @@ h2 {
     align-content: bottom;
 }
 
+.redbox ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+hr {
+    border: 1px solid white;
+    
+}
+.hr2 {
+    border: 1px solid black;
+}
 /* End of Kevins STUFF */
 
 /* Attorney Page */
