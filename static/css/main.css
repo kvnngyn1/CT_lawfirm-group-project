@@ -117,172 +117,39 @@
     text-align: left;
 }
 
-/* WHO WE ARE */
 
-.grid-container1 {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-auto-rows: minmax(200px, auto);
-    grid-template-rows: 400;
-    grid-gap: 20px;
+/* Kevins STUFF */
+
+.redbox {
+    background-image: url('../../images/nav_side.jpg');
 }
 
-.grid-item {
-    width: auto;
+img {
+    display: block;
+    max-width: 100%;
     height: auto;
-    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.grid-item1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    background-image: url(../../images/nav_side.jpg);
+.row {
+    margin-top: 20px;
 }
 
-.grid-item2 {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    padding: 10px
-}
-
-.grid-item3 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    background-image: url(https://via.placeholder.com/318x76);
-}
-
-.grid-item4 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    background-image: url(../../images/sub-01-attorneys.jpg);
-}
-
-.grid-item5 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    background-image: url(../../images/sub-01-staff.jpg);
-}
-
-.grid-item6 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    background-image: url(../../images/sub-01-reputation.jpg);
-}
-
-.grid-item7 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    background-image: url(../../images/sub-01-history.jpg);
-}
-
-h5 {
-    font-size: 20px;
+p {
     color: white;
 }
 
-.who {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.rebox-title {
+    color: white;
+    border-bottom: 1px solid white;
 }
 
-/* WHAT WE DO */
-
-.grid-container2 {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-auto-rows: minmax(200px, auto);
-    grid-template-rows: 400;
-    grid-gap: 20px;
+h2 {
+    align-content: bottom;
 }
 
-.grid-item {
-    width: auto;
-    height: auto;
-    border: 1px solid black;
-}
-
-.grid-item1b {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    background-image: url(../../images/nav_side.jpg);
-}
-
-.grid-item2b {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    padding: 10px
-}
-
-.grid-item3b {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    background-image: url(../../images/sub-02-subrogation.jpg);
-}
-
-.grid-item4b {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    background-image: url(../../images/sub-02-litigation.jpg);
-}
-
-.grid-item5b {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    background-image: url(../../images/sub-01-staff.jpg);
-}
-
-.grid-item6b {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    background-image: url(../../images/sub-02-warehouse.jpg);
-}
-
-/* WHERE WE WORK */
-
-.grid-container3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-auto-rows: minmax(200px, auto);
-    grid-template-rows: 400;
-    grid-gap: 20px;
-}
-
-.grid-item {
-    width: auto;
-    height: auto;
-    border: 1px solid black;
-}
-
-.grid-item1c {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    background-image: url(../../images/nav_side.jpg);
-}
-
-.grid-item2c {
-    grid-column-start: 2;
-    grid-column-end: 5;
-    padding: 10px
-}
-
-.grid-item3c {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    background-image: url(../../);
-}
-
-.grid-item4c {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    background-image: url(../../);
-}
+/* End of Kevins STUFF */
 
 /* Attorney Page */
 
